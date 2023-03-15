@@ -136,7 +136,11 @@
 			?>
 
 		</header><!-- #site-header -->
-
+		<div class="search-inner">
+			<?php get_search_form(); ?>
+		</div>
 		<?php
 		// Output the menu modal.
 		get_template_part( 'template-parts/modal-menu' );
+
+		
